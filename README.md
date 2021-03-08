@@ -21,11 +21,11 @@ Here the X9 connector is digital frequency input. This input requires a TTL enco
 
 To make connecting the inputs to the Teensy 4.0, a circuitboard is going to be made with 4 d-sub connectors. Here is the current state of the board drawing and schematic:
 
-![Current board state](/md_attachments/Current_board_state.png)
+![Current board state](md_attachments/Current_board_state.png)
 
 *Figure 2: Board*
 
-![Current schematic state](/md_attachments/Current_schematic_state.png)
+![Current schematic state](md_attachments/Current_schematic_state.png)
 
 *Figure 3: Here is seen a piece of the schematic*
 
@@ -33,11 +33,23 @@ As seen in figure 2, non-inverting- and inverting bus-trancievers are used to un
 
 The reason why the stepper output of Marlin can be connected directly to the TTL encoder signal of the X9 input is because the signals are identical as seen by comparing Figure 1 and Figure 4 below:
 
-![Stepper output](/md_attachments/Stepper_output.png)
+![Stepper output](md_attachments/Stepper_output.png)
 
 *Figure 4: Here is seen the stepper output marlin*
 
 Here it should be noted that the Z signal is not nescessary to use, so it will not be used. The z signal just signifies when the encoder has turned one revolution. This will not be relevant though since all stepping amounts will be calibrated in marlin at last.
+
+
+
+#### The cable between X9 and X10
+
+As seen in figure 1 there are specific requirements for the specific leaders in the cable that is going to run between x9 and x10. Here there have been chosen a 9-conductor cable at 0.5mm2. The connectors are going to be female-female, so there have been chosen some 9-pin d-sub connectors. The links for the parts can be seen here:
+
+Cable: https://dk.rs-online.com/web/p/yy-kabel/1811780/
+
+D-sub Connector: https://dk.rs-online.com/web/p/d-sub-stik/5443749/
+
+D-sub Connector House: https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/
 
 
 
@@ -59,7 +71,7 @@ Here a Sony QX1 will be mounted on the printer to monitor the printing process. 
 
 Here as said before the extruder is going to be moved in the X-axis and the bottom plate is going to be moved in the Y- and Z-axis. This is seen in Figure 5 below:
 
-![3D-Printer-Axis](/md_attachments/3D-Printer-Axis.png)
+![3D-Printer-Axis](md_attachments/3D-Printer-Axis.png)
 
 *Figure 5: Here is seen an example of how the axis will look*
 
