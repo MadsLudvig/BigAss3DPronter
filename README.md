@@ -45,21 +45,21 @@ Here it should be noted that the Z signal is not nescessary to use, so it will n
 
 As seen in figure 1 there are specific requirements for the specific leaders in the cable that is going to run between x9 and x10. Here there have been chosen a 9-conductor cable at 0.5mm2. The connectors are going to be female-female, so there have been chosen some 9-pin d-sub connectors. The links for the parts can be seen here:
 
-Cable: https://dk.rs-online.com/web/p/yy-kabel/1811780/
+Cable: [Link](https://dk.rs-online.com/web/p/yy-kabel/1811780/)
 
-D-sub Connector: https://dk.rs-online.com/web/p/d-sub-stik/5443749/
+D-sub Connector: [Link](https://dk.rs-online.com/web/p/d-sub-stik/5443749/)
 
-D-sub Connector House: https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/
+D-sub Connector House: [Link](https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/)
 
 
 
 ### Octoprint with Raspberry Pi 4.0
 
-Here as mentioned in the introduction Octoprint will be running on the raspberry pi. Here the raspberry pi will be connected to the Teensy via serial and a 15" touch screen will be connected to the Raspberry. The screen used will be this: https://www.beetronics.dk/15-tommer-touchskaerm-metal-4-3. The reason this HMI is used is because the ease of use that octoprint offers and future expansion of functionality is easy.
+Here as mentioned in the introduction Octoprint will be running on the raspberry pi. Here the raspberry pi will be connected to the Teensy via serial and a 15" touch screen will be connected to the Raspberry. The screen used will be this: [Link](https://www.beetronics.dk/15-tommer-touchskaerm-metal-4-3). The reason this HMI is used is because the ease of use that octoprint offers and future expansion of functionality is easy.
 
 #### Camera in octoprint
 
-Here a Sony QX1 will be mounted on the printer to monitor the printing process. The QX1 already outputs a mjpeg stream over its own network. So here the raspberry pi will be connected to the QX1's network. and input the stream into octoprint. In the future this functionality will be expanded to sending trigger commands to the QX1 to take pictures so octolapse can be integrated. Here a problem arises if the raspberry pi is to be connected to wifi and controlled remotely. To solve this problem either a WiFi dongle will be connected or the ethernet port on the raspberry will be used. A power adapter will here be used to power the qx1 constantly. This power adapter can be seen here: https://www.subtel.dk/index.php?cl=details&offerId=3978956963&lang=6&anid=915664&cnid=192d2e4a1f71bd07ce1a5f9bbb185e09&campaign=dk-pla/Netzteil/915664&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r6M4nEBqRl9llAmq8cqiiVEmtkUiZZ6ZFrAzY_FEcEVpPGQpeQw50saAnzREALw_wcB
+Here a Sony QX1 will be mounted on the printer to monitor the printing process. The QX1 already outputs a mjpeg stream over its own network. So here the raspberry pi will be connected to the QX1's network. and input the stream into octoprint. In the future this functionality will be expanded to sending trigger commands to the QX1 to take pictures so octolapse can be integrated. Here a problem arises if the raspberry pi is to be connected to wifi and controlled remotely. To solve this problem either a WiFi dongle will be connected or the ethernet port on the raspberry will be used. A power adapter will here be used to power the qx1 constantly. This power adapter can be seen here: [Link](https://www.subtel.dk/index.php?cl=details&offerId=3978956963&lang=6&anid=915664&cnid=192d2e4a1f71bd07ce1a5f9bbb185e09&campaign=dk-pla/Netzteil/915664&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r6M4nEBqRl9llAmq8cqiiVEmtkUiZZ6ZFrAzY_FEcEVpPGQpeQw50saAnzREALw_wcB)
 
 ##### Camera commands so far to get live-view
 
@@ -94,14 +94,14 @@ Here as said in the introduction a mini vacuum conveyer will be mounted on the e
 | Name                         | Quantity | Link                                                         | Price (DKK) |
 | ---------------------------- | -------- | ------------------------------------------------------------ | ----------- |
 | Conradt mini vacuum conveyer | 1        |                                                              | 4000        |
-| ILCE-QX1 Power adapter       | 1        | https://www.subtel.dk/index.php?cl=details&offerId=3978956963&lang=6&anid=915664&cnid=192d2e4a1f71bd07ce1a5f9bbb185e09&campaign=dk-pla/Netzteil/915664&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r6M4nEBqRl9llAmq8cqiiVEmtkUiZZ6ZFrAzY_FEcEVpPGQpeQw50saAnzREALw_wcB | 259         |
-| 15" Touch screen             | 1        | https://www.beetronics.dk/15-tommer-touchskaerm-metal-4-3    | 2699        |
-| Cable                        | 1        | https://dk.rs-online.com/web/p/yy-kabel/1811780/             | 589         |
-| Connector                    | 16       | https://dk.rs-online.com/web/p/d-sub-stik/5443749/           | 6.376       |
-| Connector house              | 16       | https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/      | 27.22       |
+| ILCE-QX1 Power adapter       | 1        | [Link](https://www.subtel.dk/index.php?cl=details&offerId=3978956963&lang=6&anid=915664&cnid=192d2e4a1f71bd07ce1a5f9bbb185e09&campaign=dk-pla/Netzteil/915664&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r6M4nEBqRl9llAmq8cqiiVEmtkUiZZ6ZFrAzY_FEcEVpPGQpeQw50saAnzREALw_wcB) | 259         |
+| 15" Touch screen             | 1        | [Link](https://www.beetronics.dk/15-tommer-touchskaerm-metal-4-3)    | 2699        |
+| Cable                        | 1        | [Link](https://dk.rs-online.com/web/p/yy-kabel/1811780/)             | 589         |
+| Connector                    | 16       | [Link](https://dk.rs-online.com/web/p/d-sub-stik/5443749/)           | 6.376       |
+| Connector house              | 16       | [Link](https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/)      | 27.22       |
 | Material dryer               | 1        |                                                              | NaN         |
-| SN74LS640N                   | 6        | https://www.ti.com/store/ti/en/p/product/?p=SN74LS640N       | 9.54        |
-| SN74ABT245BN                 | 6        | https://www.ti.com/store/ti/en/p/product/?p=SN74ABT245BN     | 4.52        |
+| SN74LS640N                   | 6        | [Link](https://www.ti.com/store/ti/en/p/product/?p=SN74LS640N)       | 9.54        |
+| SN74ABT245BN                 | 6        | [Link](https://www.ti.com/store/ti/en/p/product/?p=SN74ABT245BN)     | 4.52        |
 
 So here the price comes up to: 8169kr. DKK
 
