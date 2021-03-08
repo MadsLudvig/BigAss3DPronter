@@ -89,9 +89,19 @@ Here as said in the introduction a mini vacuum conveyer will be mounted on the e
 
 
 
+### Bill of Materials
 
+| Name                         | Quantity | Link                                                         | Price (DKK) |
+| ---------------------------- | -------- | ------------------------------------------------------------ | ----------- |
+| Conradt mini vacuum conveyer | 1        |                                                              | 4000        |
+| ILCE-QX1 Power adapter       | 1        | https://www.subtel.dk/index.php?cl=details&offerId=3978956963&lang=6&anid=915664&cnid=192d2e4a1f71bd07ce1a5f9bbb185e09&campaign=dk-pla/Netzteil/915664&gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r6M4nEBqRl9llAmq8cqiiVEmtkUiZZ6ZFrAzY_FEcEVpPGQpeQw50saAnzREALw_wcB | 259         |
+| 15" Touch screen             | 1        | https://www.beetronics.dk/15-tommer-touchskaerm-metal-4-3    | 2699        |
+| Cable                        | 1        | https://dk.rs-online.com/web/p/yy-kabel/1811780/             | 589         |
+| Connector                    | 16       | https://dk.rs-online.com/web/p/d-sub-stik/5443749/           | 6.376       |
+| Connector house              | 16       | https://dk.rs-online.com/web/p/d-sub-bagkapper/5444039/      | 27.22       |
+| Material dryer               | 1        |                                                              | NaN         |
+| SN74LS640N                   | 6        | https://www.ti.com/store/ti/en/p/product/?p=SN74LS640N       | 9.54        |
+| SN74ABT245BN                 | 6        | https://www.ti.com/store/ti/en/p/product/?p=SN74ABT245BN     | 4.52        |
 
-
-
-
+So here the price comes up to: 8169kr. DKK
 
