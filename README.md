@@ -107,5 +107,5 @@ Here as said in the introduction a mini vacuum conveyer will be mounted on the e
 | Steel frame                                  |    1     |                                                              |     NaN     |
 | Mounting adapter for servo motor to extruder |    1     |                                                              |     NaN     |
 
-So here the price comes up to: 8169kr. DKK for now. Here it should be noted that this is not close to the final cost, since the mounting brackets and the steel frame will cost a lot. 
+So here the price comes up to: 8169kr. DKK for now. Here it should be noted that this is not close to the final cost, since the mounting brackets, the steel frame, and the aluminium bottom plate will cost a lot. 
 
